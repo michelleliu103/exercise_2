@@ -7,13 +7,13 @@ import Queue, threading
 from streamparse.spout import Spout
 
 ################################################################################
-# Twitter credentials
+# Twitter credentials MUST ENTER IN TWITTER TOKENS BEFORE RUNNING!
 ################################################################################
 twitter_credentials = {
-    "consumer_key"        :  "AkoZA3B3GYGWMsLlP9iMPsvgb",
-    "consumer_secret"     :  "PSDjPxjTfKZW1NfZlWDmbTljrtVGusWDREjsVSBlhh6Dq1dnsa",
-    "access_token"        :  "1867321237-mX3PrrPmhEcoAcwFGueBlFYouP461HBpt44GPD9",
-    "access_token_secret" :  "Ftc52rRBmfXBDv3099EG3ZHHscHSzx0ORTtMeH9YBw40o",
+    "consumer_key"        :  "",
+    "consumer_secret"     :  "",
+    "access_token"        :  "",
+    "access_token_secret" :  "",
 }
 
 def auth_get(auth_key):
