@@ -11,6 +11,8 @@ Step-by-step instructions on how to run the application:
 
 3. Start the Storm application by typing the command "sparse run -t 60" in tweetwordcount folder. 
 This will run Streamparse for 60 seconds. The emitted words and their respective word counts will be save into the table "tweetwordcount" under the Database "tcount"
+If you just type in "sparse run" without specifying a time limit, the application will run until the user hit ctrl+c. 
+Note that I ran it for 120 seconds in order to get more words when I make the plot.
 
 4. Submit queries encoded in Python serving script to pull out the data from the database
 
